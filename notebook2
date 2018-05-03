@@ -1,0 +1,151 @@
+{
+  "paragraphs": [
+    {
+      "text": "%pyspark\nprint(\"hello world\")",
+      "user": "kundank+acl@qubole.com",
+      "dateUpdated": "May 2, 2018 6:55:23 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/python",
+        "editorHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "paragraphProgress": {
+        "jobs": [],
+        "numCompletedTasks": 0,
+        "numTasks": 0,
+        "truncated": false
+      },
+      "version": "v0",
+      "jobName": "paragraph_1522765100584_-2088144850",
+      "id": "20180403-141820_2134992336_q_ZRS8WNFWKM1525244627",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "hello world\n"
+      },
+      "dateCreated": "Apr 3, 2018 2:18:20 PM",
+      "dateSubmitted": "May 2, 2018 6:55:23 AM",
+      "dateStarted": "May 2, 2018 6:55:23 AM",
+      "dateFinished": "May 2, 2018 6:55:23 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "%sh\nls -l",
+      "user": "kundank+acl@qubole.com",
+      "dateUpdated": "May 2, 2018 6:56:11 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/sh"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1525243788772_1167120643",
+      "id": "20180502-064948_986033842_q_ZRS8WNFWKM1525244627",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "total 128\ndr-xr-xr-x   2 root root  4096 Jan 29 16:09 bin\ndr-xr-xr-x   4 root root  4096 Mar 23 09:42 boot\ndrwxr-xr-x   2 root root  4096 Jul 28  2011 cgroup\ndrwxr-xr-x  16 root root  2760 May  2 06:34 dev\ndrwxr-xr-x 104 root root 12288 May  2 06:32 etc\ndrwxr-xr-x   5 root root  4096 Nov  5  2014 home\n-rw-r--r--   1 root root  3698 Apr 26 02:02 index.html\n-rw-r--r--   1 root root  3698 Apr 26 02:02 index.html.1\ndr-xr-xr-x  12 root root  4096 Jan 29 15:16 lib\ndr-xr-xr-x  10 root root 12288 Jan 29 16:09 lib64\ndrwxr-xr-x   2 root root  4096 Oct 28  2011 local\ndrwx------   2 root root 16384 Oct 28  2011 lost+found\ndrwxr-xr-x   3 root root  4096 May  2 06:31 media\ndrwxr-xr-x   2 root root  4096 Jan 15  2011 mnt\n-rw-------   1 root root     0 Apr 14 01:38 motd.part0f3kr\n-rw-------   1 root root     0 Apr 13 09:25 motd.part0m3m4\n-rw-------   1 root root     0 May  1 05:42 motd.partaEUfl\n-rw-------   1 root root     0 Apr 11 09:04 motd.partdfoY6\n-rw-------   1 root root     0 Apr 21 01:24 motd.partgSarR\n-rw-------   1 root root     0 Apr 13 01:18 motd.partkiqqe\n-rw-------   1 root root     0 Apr 27 01:27 motd.partly1gt\n-rw-------   1 root root     0 Apr 20 11:06 motd.partmdoXR\n-rw-------   1 root root     0 Apr 26 02:48 motd.partrrvdg\ndrwxr-xr-x   5 root root  4096 Jun  6  2016 opt\ndr-xr-xr-x 138 root root     0 May  2 06:31 proc\ndrwxrwxrwx   2 root root  4096 Jan 29 16:09 qfs\ndr-xr-x---  14 root root  4096 May  2 06:31 root\ndrwxr-xr-x   3 root root  4096 Jun  6  2016 run\ndr-xr-xr-x   2 root root 12288 Apr  3 09:42 sbin\ndrwxr-xr-x   2 root root  4096 Jan 15  2011 selinux\ndrwxr-xr-x   2 root root  4096 Jan 15  2011 srv\ndr-xr-xr-x  13 root root     0 May  2 06:31 sys\ndrwxrwxrwt  20 root root  4096 May  2 06:55 tmp\ndrwxr-xr-x  16 root root  4096 Dec 20 00:27 usr\ndrwxr-xr-x  23 root root  4096 Aug 31  2016 var\n"
+      },
+      "dateCreated": "May 2, 2018 6:49:48 AM",
+      "dateSubmitted": "May 2, 2018 6:56:11 AM",
+      "dateStarted": "May 2, 2018 6:56:11 AM",
+      "dateFinished": "May 2, 2018 6:56:11 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "%pyspark\nimport numpy\nprint(numpy.__version__)",
+      "user": "kundank+acl@qubole.com",
+      "dateUpdated": "May 2, 2018 6:54:37 AM",
+      "config": {
+        "colWidth": 12.0,
+        "graph": {
+          "mode": "table",
+          "height": 300.0,
+          "optionOpen": false,
+          "keys": [],
+          "values": [],
+          "groups": [],
+          "scatter": {}
+        },
+        "enabled": true,
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1525243824538_1448048637",
+      "id": "20180502-065024_1928932874_q_ZRS8WNFWKM1525244627",
+      "result": {
+        "code": "SUCCESS",
+        "type": "TEXT",
+        "msg": "1.11.3\n"
+      },
+      "dateCreated": "May 2, 2018 6:50:24 AM",
+      "dateSubmitted": "May 2, 2018 6:54:37 AM",
+      "dateStarted": "May 2, 2018 6:54:37 AM",
+      "dateFinished": "May 2, 2018 6:54:37 AM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 1000
+    },
+    {
+      "text": "",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "version": "v0",
+      "jobName": "paragraph_1525244077583_1566706708",
+      "id": "20180502-065437_1486055374_q_ZRS8WNFWKM1525244627",
+      "dateCreated": "May 2, 2018 6:54:37 AM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 1000
+    }
+  ],
+  "name": "2Z3St - Clone",
+  "id": "ZRS8WNFWKM1525244627",
+  "angularObjects": {
+    "2DDN51MS61018991524573368868:shared_process": [],
+    "2DC722M9B1018991524573368859:shared_process": [],
+    "2DCX5PHZN1018991525341204869:shared_process": [],
+    "2DCV3Y37X1018991524573368840:shared_process": [],
+    "2DESAHD791018991525332449603:shared_process": []
+  },
+  "config": {
+    "isDashboard": false,
+    "defaultLang": ""
+  },
+  "info": {},
+  "source": "FCN"
+}
